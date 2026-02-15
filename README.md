@@ -9,8 +9,8 @@ PayStream is a decentralized platform enabling continuous, on-demand salary stre
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/shivanshbadoni007/my.git
-cd my
+git clone https://github.com/shivanshbadoni007/krackhack-geonix.git
+cd krackhack-geonix
 ```
 
 ---
@@ -20,17 +20,6 @@ cd my
 ```bash
 cd backend
 npm install
-```
-
-Create a `.env` file in the `backend` folder:
-
-```env
-PORT=4000
-JWT_SECRET=your_secret_key_change_this
-HELA_RPC_URL=https://testnet-rpc.helachain.com
-PRIVATE_KEY=your_private_key_here_without_0x_prefix
-PAYSTREAM_CONTRACT=0x99c1df5bda4242eB003Ba13b8E1394e2A22b26A7
-HLUSD_TOKEN=0x5cB0277f586b3b7651a843B2AB75b4F2A7D944c0
 ```
 
 Start the backend server:
@@ -44,7 +33,7 @@ Backend runs on: `http://localhost:4000`
 ---
 
 ### 3. Setup & Run Frontend
-
+Do this in another terminal
 ```bash
 cd frontend
 npm install
