@@ -19,7 +19,7 @@ and then run the file
 node update-john-wallet.js
 ```
 ---
-
+after this create a .env file in backend/ and copy the contents from .env.example
 ### 2. Setup & Run Backend
 
 ```bash
